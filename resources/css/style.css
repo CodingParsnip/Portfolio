@@ -3,7 +3,12 @@
 *           UNIVERSAL STYLES            *
 *                                       *
 ****************************************/
-
+body {
+    background-image: url(../pictures/abstract-marble-texture-black-white-grey-background-handmade-technique.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
 /****************************************
 *                                       *
