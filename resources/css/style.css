@@ -3,6 +3,11 @@
 *           UNIVERSAL STYLES            *
 *                                       *
 ****************************************/
+html {
+    font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
 body {
     background-image: url(../pictures/abstract-marble-texture-black-white-grey-background-handmade-technique.jpg);
     background-size: cover;
