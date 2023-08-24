@@ -17,7 +17,7 @@ body {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 h1 {
@@ -31,7 +31,16 @@ h2 {
 }
 
 .spacing {
-    margin-top: 2rem;
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+.nobullets {
+    list-style: none;
+    padding-right: 2rem;
+}
+
+.sidebyside {
+    display: flex;
 }
 
 /****************************************
@@ -92,6 +101,7 @@ nav ul {
 .textbox {
     display: inline-block;
     width: 28rem;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 /****************************************
@@ -113,6 +123,7 @@ nav ul {
 *               CONTACT                 *
 *                                       *
 ****************************************/
+
 
 
 /****************************************
