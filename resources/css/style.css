@@ -16,8 +16,22 @@ body {
     margin: 2rem;
 }
 
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    color: black;
+    margin: 0;
+}
+
+.spacing {
+    margin-top: 2rem;
 }
 
 /****************************************
@@ -25,22 +39,59 @@ h2 {
 *                HEADER                 *
 *                                       *
 ****************************************/
-h1 {
-    font-size: 2.5rem;
+header {
+    margin-bottom: 1rem;
+}
+
+.logo {
+    display: inline;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: .1rem .1rem 0 rgba(0, 0, 0, 0.25);
+}
+
+nav {
+    display: flex;
+    float: right;
+    margin-top: .5rem;
 }
 
 nav ul li {
     list-style: none;
+    padding-left: 2.5rem;
+    font-size: 1.3rem;
+    color: black;
 }
 
+.navlink {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: .1rem .1rem 0 rgba(0, 0, 0, 0.25);
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
 /****************************************
 *                                       *
 *               ABOUT ME                *
 *                                       *
 ****************************************/
 .headshot {
-    width: 50%;
+    width: 40%;
     height: auto;
+    float: right;
+}
+
+.textbox {
+    display: inline-block;
+    width: 28rem;
 }
 
 /****************************************
