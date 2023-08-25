@@ -119,6 +119,39 @@ nav ul {
     list-style: square;
 }
 
+#level-generator-section {
+    text-align: center;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    background-color: rgba(173, 216, 230, 0.5);
+    border: 0.15rem dashed rgba(30, 48, 80, 0.5);
+    border-radius: 10rem 1rem;
+}
+
+.levelgenheader {
+    text-decoration: underline;
+    
+}
+
+.levelgenbutton {
+    
+    font-weight: bold;
+}
+
+#levelname {
+    margin: 1rem 0 1rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    background-color: #EBFFFF;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
 /****************************************
 *                                       *
 *                SKILLS                 *
@@ -141,4 +174,5 @@ nav ul {
 ****************************************/
 .bgcredit {
     margin-top: 2.5rem;
+    
 }
