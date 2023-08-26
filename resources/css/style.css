@@ -44,7 +44,7 @@ h2 {
 }
 
 .iconstyle {
-    font-size: 300%;
+    font-size: 400%;
     color: #1E3050;
     text-shadow: .1rem .1rem 0 rgba(0, 0, 0, 0.25);
 }
@@ -99,9 +99,11 @@ nav ul {
 *                                       *
 ****************************************/
 .headshot {
-    width: 40%;
-    height: auto;
+    width: 25rem;
     float: right;
+    border: 0.5rem solid #1E3050;
+    border-radius: 10rem 1rem;
+    border-style: ridge;
 }
 
 .textbox {
@@ -127,7 +129,7 @@ nav ul {
     align-items: center;
     padding: 1rem 0 1rem 0;
     background-color: rgba(173, 216, 230, 0.5);
-    border: 0.15rem dashed rgba(30, 48, 80, 0.5);
+    border: 0.5rem ridge rgba(30, 48, 80, 0.8);
     border-radius: 10rem 1rem;
 }
 
