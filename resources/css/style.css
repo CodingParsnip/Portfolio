@@ -197,16 +197,6 @@ nav ul {
     to {left: 23rem; opacity: 1;}
 }
 
-/* #project:not(hover) {
-    left: 15rem;
-    top: 31.5rem;
-    animation-name: moveout;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-    opacity: 0;
-} */
-
 .screenshot {
     display: flex;
     margin: 2rem;
@@ -233,7 +223,6 @@ nav ul {
 *                                       *
 ****************************************/
 .iconstyle:hover {
-    /* transform: translateY(0.5rem); */
     box-shadow: -0.3rem -0.3rem rgba(173, 216, 230, 1);
 }
 
@@ -244,5 +233,4 @@ nav ul {
 ****************************************/
 .bgcredit {
     margin-top: 2.5rem;
-    
 }
