@@ -104,6 +104,24 @@ nav ul {
     display: flex;
     
 }
+
+@media only screen and (max-width: 1079px) {
+    .logo {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        margin-top: 1rem;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
 /****************************************
 *                                       *
 *               ABOUT ME                *
