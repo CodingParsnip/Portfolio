@@ -1,9 +1,9 @@
 // BUILDING THE GENERATOR
 
 const section1 = ['Hot', 'Wet', 'Cold', 'Dry', 'Chilly', 'Spicy', 'Melting', 'Burning', 'Joyful', 'Wild', 'Goofy', 'Lonely', 'Abandoned', 'Stinky', 'Windy', 'Red', 'Blue', 'Green', 'Lovely', 'Radical', 'Yellow', 'Gassy', 'Gnarly', 'Haunted', 'Flooded'];
-const section2 = ['Mountain', 'Ocean', 'Valley', 'Canyon', 'Space', 'City', 'Forest', 'Highway', 'Coast', 'Beach', 'Undersea', 'Volcano', 'Geyser', 'Village'];
-const section3 = ['Racetrack', 'Zone', 'Farm', 'Circus', 'House', 'Mansion', 'Complex', 'Jailhouse', 'Campus', 'Playground', 'Cove', 'Cavern', 'Cottage', 'Fields', 'Pass', 'Run', 'Plains', 'Lab', 'Site', 'Chasm', 'Warehouse'];
-//Section 1: 25 || Section 2: 14 || Section 3: 21
+const section2 = ['Mountain', 'Ocean', 'Valley', 'Canyon', 'Space', 'City', 'Forest', 'Highway', 'Coast', 'Beach', 'Undersea', 'Volcano', 'Geyser', 'Village', ''];
+const section3 = ['Racetrack', 'Zone', 'Farm', 'Circus', 'House', 'Mansion', 'Complex', 'Jailhouse', 'Campus', 'Playground', 'Cove', 'Cavern', 'Cottage', 'Fields', 'Pass', 'Run', 'Plains', 'Lab', 'Site', 'Chasm', 'Warehouse', ''];
+//Section 1: 25 || Section 2: 15 || Section 3: 22
 
 const randSection = (section) =>
 {
@@ -21,3 +21,8 @@ const onButtonClick = () =>
 };
 
 clickButton.addEventListener('click', onButtonClick);
+
+const fart = () =>
+{
+    console.log("Stinky fart");
+}
