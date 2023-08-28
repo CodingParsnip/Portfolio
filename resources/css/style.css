@@ -172,12 +172,12 @@ nav ul {
 }
 
 #project {
-
+    width: 13rem;
 }
 
 .hidepic {
     position: absolute;
-    left: 15rem;
+    bottom: 100rem;
     opacity: 0;
 }
 
