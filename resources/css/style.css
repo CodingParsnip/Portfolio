@@ -50,6 +50,12 @@ h2 {
     transition: all 0.2s ease-in-out;
 }
 
+@media only screen and (max-width: 1079px) {
+    h2 {
+        text-align: center;
+    }
+}
+
 /****************************************
 *                                       *
 *                HEADER                 *
@@ -120,6 +126,14 @@ nav ul {
         display: flex;
         justify-content: space-evenly;
     }
+
+    nav ul li {
+        padding: 0;
+    }
+
+    #project {
+        margin: 1rem;
+    }
 }
 
 /****************************************
@@ -137,8 +151,27 @@ nav ul {
 
 .textbox {
     display: inline-block;
-    width: 28rem;
+    width: 58%;
+    /* width: 28rem; */
     margin: 1rem 0 0.5rem 0;
+}
+
+@media only screen and (max-width: 1079px) {
+    #aboutmesection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textbox {
+        text-align: center;
+        margin-top: 2.2rem;
+        width: 100%;
+    }
+
+    .aboutmeheader {
+        margin-bottom: 1.3rem;
+    }
 }
 
 /****************************************
@@ -148,6 +181,74 @@ nav ul {
 ****************************************/
 .projectstyle {
     list-style: square;
+}
+
+#project {
+    width: 13rem;
+}
+
+.hidepic {
+    position: absolute;
+    bottom: 100rem;
+    opacity: 0;
+}
+
+#project:hover .hidepic {
+    left: 30%;
+    top: 78%;
+    animation-name: movein;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    opacity: 1;
+}
+
+@keyframes movein {
+    from {left: 15%; opacity: 0;}
+    to {left: 30%; opacity: 1;}
+}
+
+.screenshot {
+    display: flex;
+    margin: 2rem;
+    box-shadow: 0.3rem 0.3rem rgba(173, 216, 230, 1);
+    border: 0.5rem solid #1E3050;
+    width: 80%;
+    max-width: 35rem;
+}
+
+@media only screen and (max-width: 1079px) {
+    #projectbox {
+        display: flex;
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #project {
+        display: flex;
+        text-align: center;
+    }
+
+    #project:hover .hidepic {
+        display: none;
+    }
+
+    /* #project:hover .hidepic {
+        left: 14rem;
+        top: 24rem;
+        animation-name: moveup;
+        animation-duration: 0.6s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        opacity: 1;
+    }
+
+    @keyframes moveup {
+        from {top: 35rem; opacity: 0;}
+        to {top: 24rem; opacity: 1;}
+    } */
+
 }
 /*          Level Name Generator        */
 
@@ -188,42 +289,6 @@ nav ul {
     box-shadow: 0 0.2rem 0.25rem rgba(30, 48, 80, 0.5);
 }
 
-#project {
-    width: 13rem;
-}
-
-.hidepic {
-    position: absolute;
-    bottom: 100rem;
-    opacity: 0;
-}
-
-#project:hover .hidepic {
-    left: 23rem;
-    top: 31.5rem;
-    animation-name: movein;
-    animation-duration: 0.6s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-    opacity: 1;
-    /* transition: none 0.6s ease-in-out; */
-}
-
-@keyframes movein {
-    from {left: 15rem; opacity: 0;}
-    to {left: 23rem; opacity: 1;}
-}
-
-.screenshot {
-    display: flex;
-    margin: 2rem;
-    box-shadow: 0.3rem 0.3rem rgba(173, 216, 230, 1);
-    border: 0.5rem solid #1E3050;
-    width: 80%;
-    max-width: 35rem;
-}
-
-
 /* Project 2 */
 
 
@@ -232,7 +297,11 @@ nav ul {
 *                SKILLS                 *
 *                                       *
 ****************************************/
-
+@media only screen and (max-width: 1079px) {
+    .sidebyside {
+        justify-content: center;
+    }
+}
 
 /****************************************
 *                                       *
@@ -250,4 +319,10 @@ nav ul {
 ****************************************/
 .bgcredit {
     margin-top: 2.5rem;
+}
+
+@media only screen and (max-width: 1079px) {
+    .bgcredit {
+        text-align: center;
+    }
 }
