@@ -187,7 +187,7 @@ nav ul {
     width: 13rem;
 }
 
-.hidepic {
+/* .hidepic {
     position: absolute;
     bottom: 100rem;
     opacity: 0;
@@ -206,15 +206,14 @@ nav ul {
 @keyframes movein {
     from {left: 15%; opacity: 0;}
     to {left: 30%; opacity: 1;}
-}
+} */
 
 .screenshot {
     display: flex;
     margin: 2rem;
     box-shadow: 0.3rem 0.3rem rgba(173, 216, 230, 1);
     border: 0.5rem solid #1E3050;
-    width: 80%;
-    max-width: 35rem;
+    width: 30rem;
 }
 
 @media only screen and (max-width: 1079px) {
@@ -228,11 +227,20 @@ nav ul {
     #project {
         display: flex;
         text-align: center;
+        flex-direction: column;
     }
 
-    #project:hover .hidepic {
+    .screenshot {
+        width: 95%;
+    }
+
+    /* #project:hover .hidepic {
         display: none;
     }
+
+    .hidepic {
+        display: block;
+    } */
 
     /* #project:hover .hidepic {
         left: 14rem;
@@ -248,6 +256,7 @@ nav ul {
         from {top: 35rem; opacity: 0;}
         to {top: 24rem; opacity: 1;}
     } */
+
 
 }
 /*          Level Name Generator        */
